@@ -1,0 +1,19 @@
+knitr::opts_chunk$set(echo = TRUE)
+summary(cars)
+plot(pressure)
+install.packages("imdbapi")
+library("imdbapi")
+search_by_title(Fargo)
+search_by_title("Fargo")
+search_by_title("Fargo")
+search_by_title(Fargo)
+search_by_title("Spiderman")
+get_directors(find_by_id("tt0031381"))
+find_by_id("tt0031381")
+find_by_id(tt0031381)
+find_by_title("Akira", type = NULL, season = NULL, episode = NULL,
+year_of_release = NULL, plot = "short", include_tomatoes = FALSE,
+api_key = omdb_api_key())
+find_by_title("Akira", type = NULL, season = NULL, episode = NULL,
+year_of_release = NULL, include_tomatoes = FALSE,
+api_key = omdb_api_key())
