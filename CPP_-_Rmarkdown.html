@@ -378,15 +378,26 @@ $(document).ready(function () {
 
 <div id="capstone-project-proposal" class="section level1">
 <h1>Capstone Project Proposal</h1>
-<p>IDEA 1: Movie review differences Difference between movie rating websites - compare differences in scores between Rotten Tomatoes &amp; IMDB, and maybe add Metacritic and/or Fandango.</p>
-<p>Identify trends in movies with greatest delta - box office vs rating difference, cross reference with oscars/awards list</p>
-<p>Possible clients: streaming services like Netflix or its competitors who are looking to expand their libraries with movies that are undervalued but will be liked by customers. (Think: Moneyball for streaming). Personal interest: my brother and I often debate which movie rating sites are more reliable (based on our personal tastes) for movies where there is a large difference between the scores. I tend to agree more with RT, he likes IMDB. I’m interested in identifying other movies which have large score differences to test our movie review site preferences.</p>
-<p>Data: Top 100?1000?5000?10000? Past 5 years? Should be able to pull stuff off Kaggle.</p>
-<p>##What is the problem you want to solve? I want to investigate the delta in movie review scores across multiple review websites: IMDB, Rotten Tomatoes (RT), and Metacritic (MC). Even with something as subjective as an opinion of a movie, one would expect to see a high degree of correlation between the aforementioned sites, which is often not the case. I’ve personally noticed many movies which have wildly different scores across the various sites, which may be in part to opinion biases in professional movie critics vs the general audience, the demographics of a particular website’s average reviewer, or the rating system of each site. Independently, the distributions for each of the review websites are quite unique to each site, as visualized <a href="https://medium.freecodecamp.org/whose-reviews-should-you-trust-imdb-rotten-tomatoes-metacritic-or-fandango-7d1010c6cf19">here</a>.</p>
-<p>Who is your client and why do they care about this problem? In other words, what will your client DO or DECIDE based on your analysis that they wouldn’t have otherwise?</p>
-<p>What data are you going to use for this? How will you acquire this data?</p>
-<p>In brief, outline your approach to solving this problem (knowing that this might change later).</p>
-<p>What are your deliverables? Typically, this would include code, along with a paper and/or a slide deck.</p>
+<div id="what-is-the-problem-you-want-to-solve" class="section level3">
+<h3>What is the problem you want to solve?</h3>
+<p>I want to investigate the delta in movie review scores across multiple review websites: IMDB, Rotten Tomatoes (RT), and Metacritic (MC). Even with something as subjective as an opinion of a movie, one would expect to see a high degree of correlation between the aforementioned sites, which is often not the case. I’ve personally noticed many movies which have wildly different scores across the various sites, which may be in part to opinion biases in professional movie critics vs the general audience, the demographics of a particular website’s average reviewer, or the rating system of each site. Independently, the distributions for each of the review websites are quite unique to each site, as visualized <a href="https://medium.freecodecamp.org/whose-reviews-should-you-trust-imdb-rotten-tomatoes-metacritic-or-fandango-7d1010c6cf19">here</a>.</p>
+</div>
+<div id="who-is-your-client-and-why-do-they-care-about-this-problem-in-other-words-what-will-your-client-do-or-decide-based-on-your-analysis-that-they-wouldnt-have-otherwise" class="section level2">
+<h2>Who is your client and why do they care about this problem? In other words, what will your client DO or DECIDE based on your analysis that they wouldn’t have otherwise?</h2>
+<p>The potential clients are streaming services like Netflix or its competitors who are looking to expand their content offerings with movies that are undervalued but will be liked by customers like Moneyball for streaming. Including both original content production and licensing existing titles, Netflix has budgeted over $15 billion to content development in 2019, a big increase from the previous year, with licensing deals amortizing over the course of several years thereby defraying upfront cash costs. With such a large cash burn rate which is predicted to continue for several years, investors must be hungry for economic ways to add content soas to leave more available budget towards original content production.</p>
+</div>
+<div id="what-data-are-you-going-to-use-for-this-how-will-you-acquire-this-data" class="section level2">
+<h2>What data are you going to use for this? How will you acquire this data?</h2>
+<p>APIs would be the most straightforward route, however access to the keys is difficult and/or cost prohibitive, so the OMDB API will be utilized along with publicly available data from either the review site itself or from Kaggle, CRAN, etc.</p>
+</div>
+<div id="in-brief-outline-your-approach-to-solving-this-problem-knowing-that-this-might-change-later." class="section level2">
+<h2>In brief, outline your approach to solving this problem (knowing that this might change later).</h2>
+<p>I will analyze the difference in scores between movie rewiew scores and run stastical analysis on a list of movies with large differences</p>
+</div>
+<div id="what-are-your-deliverables-typically-this-would-include-code-along-with-a-paper-andor-a-slide-deck." class="section level2">
+<h2>What are your deliverables? Typically, this would include code, along with a paper and/or a slide deck.</h2>
+<p>My deliverables will be the code, a paper, slide deck, and a list of movies that streaming services might be interested in liscensing.</p>
+</div>
 </div>
 
 
